@@ -10,10 +10,6 @@ entrada_tarefa = tk.Entry(janela, width=50)
 entrada_tarefa.pack(pady=10)
 
 
-lista_tarefas = tk.Listbox(janela, width=50, height=10, selectmode=tk.SINGLE)
-lista_tarefas.pack(pady=10)
-
-
 def adicionar_tarefa():
     tarefa = entrada_tarefa.get()
     if tarefa != "":
